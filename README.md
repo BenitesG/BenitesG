@@ -2,9 +2,9 @@
 
 <h3 align="left">I'm a Software Engineer passionate about building new solutions and solve problems. With experience in a range of technologies, I constantly seek to enhance my skills and stay updated, I always chase to new challenges and delivery impactful results.</h3>
 
-<div align="left">
+
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/benitesgu/)
-</div>
+
 <br>
 
 <div align="center">
