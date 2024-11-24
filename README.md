@@ -1,4 +1,4 @@
-<h2 align="left">Hi! I'm Gustavo Benites! <img src="https://user-images.githubusercontent.com/39955420/147578264-bae0526c-028a-49d2-8af8-d08bb4edbd2a.gif</h2>
+<h2 align="left">Hi! I'm Gustavo Benites! <img src="https://user-images.githubusercontent.com/39955420/147578264-bae0526c-028a-49d2-8af8-d08bb4edbd2a.gif> </h2>
 
 <h3 align="left">I'm a Software Engineer passionate about building new solutions and solve problems. With experience in a range of technologies, I constantly seek to enhance my skills and stay updated, I always chase to new challenges and delivery impactful results.</h3>
 
@@ -39,4 +39,4 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/BenitesG/BenitesG/output/snake.yml" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/BenitesG/BenitesG/.github/workflows/snake.yml" alt="Snake animation" />
