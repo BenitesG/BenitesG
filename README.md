@@ -1,6 +1,6 @@
-<h2 align="left">Hi! I'm Gustavo Benites! <img src="https://user-images.githubusercontent.com/39955420/147578264-bae0526c-028a-49d2-8af8-d08bb4edbd2a.gif" height="30" width="30"></h2>
+<h1 align="left">Hi! I'm Gustavo Benites! <img src="https://user-images.githubusercontent.com/39955420/147578264-bae0526c-028a-49d2-8af8-d08bb4edbd2a.gif" height="30" width="30"></h1>
 
-<h3 align="left">I'm a Software Engineer student passionate about building new solutions and solve problems. With experience in a range of technologies, I constantly seek to enhance my skills and stay updated, I always chase to new challenges and delivery impactful results.</h3>
+<p align="left">I'm a Software Engineer student passionate about building new solutions and solve problems. With experience in a range of technologies, I constantly seek to enhance my skills and stay updated, I always chase to new challenges and delivery impactful results.</p>
 
 
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/benitesgu/)
