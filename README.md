@@ -14,8 +14,8 @@
 
 <br clear="both">
 
-<h3 align="left" >Things I code with:</h3>
-<div align="left">
+<h3 align="center">Things I code with:</h3>
+<div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
   <img width="15" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" height="30" alt="django logo"  />
@@ -34,11 +34,10 @@
 <br clear="both">
 
 <div align="center">
-<img height="200" src="mr-robot-hello.gif"  />
+<img height="250" src="mr-robot-hello.gif"  />
 </div>
 
 
 
-<br clear="both">
 
 <img src="https://raw.githubusercontent.com/BenitesG/BenitesG/output/snake.svg" alt="Snake animation" />
