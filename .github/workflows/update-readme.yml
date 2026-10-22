@@ -1,0 +1,66 @@
+# ---------------------------------------------------------------------------
+# .github/workflows/update-readme.yml
+#
+# Regenerates the "Recent repositories" block of the profile README.
+#
+# WHY ONLY ONE BLOCK: the API returns a name, a description, a language and
+# topics. It does not return the reason a project is worth reading. The
+# featured projects above the block stay hand-written; what gets automated is
+# the mechanical part - the list, and keeping it in the right order.
+#
+# `permissions: contents: write` is required because the job commits. It is
+# the only permission granted: a repository's default GITHUB_TOKEN can carry
+# a wider scope than a job that rewrites a README needs.
+#
+# NOTE: this declaration cannot exceed what Settings > Actions > General >
+# Workflow permissions allows. With the repository set to read-only, the job
+# generates the block and then fails on push.
+#
+# `[skip ci]` in the commit message keeps the bot's commit from triggering
+# other workflows - including this one.
+# ---------------------------------------------------------------------------
+
+name: update-readme
+
+on:
+  schedule:
+    # 06:00 UTC = 03:00 in Sao Paulo. Daily is more than enough: the list only
+    # changes when a repository is created or receives a push.
+    - cron: "0 6 * * *"
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: generate the repositories block
+        env:
+          # The token raises the rate limit from 60 to 5,000 requests per hour
+          # and only needs to read public metadata.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: BenitesG
+          MAX_REPOS: "6"
+        run: python scripts/update_readme.py
+
+      - name: commit if anything changed
+        run: |
+          if [[ -z "$(git status --porcelain README.md)" ]]; then
+            echo "nothing changed"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore(readme): refresh recent repositories [skip ci]"
+          git push
