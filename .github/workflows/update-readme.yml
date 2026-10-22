@@ -18,6 +18,13 @@
 #
 # `[skip ci]` in the commit message keeps the bot's commit from triggering
 # other workflows - including this one.
+#
+# THE TRAP THAT CAUGHT THIS FILE ON ITS FIRST PUSH: GitHub looks for that
+# marker in the commit title AND in the commit body. The commit that
+# introduced this workflow explained the marker in its body, spelled out in
+# full - and the push was skipped. The workflow existed, was active, and had
+# zero runs. When writing about the marker in a commit message, break the
+# string (skip-ci, or "skip" plus "ci") instead of spelling it out.
 # ---------------------------------------------------------------------------
 
 name: update-readme
