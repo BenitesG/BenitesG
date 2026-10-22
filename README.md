@@ -7,8 +7,7 @@
 
 <p align="left">
 I automate operations: provisioning, delivery and environment standards as code, with a pipeline validating every change.<br>
-Software Engineering student at UNICID (2028). Currently going deeper into Kubernetes, observability and GitOps.<br>
-AWS Certified Cloud Practitioner — exam scheduled for Nov 27, 2026.
+Software Engineering student at UNICID. Currently going deeper into Kubernetes, observability and GitOps.<br>
 </p>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/benitesgu/)
