@@ -37,7 +37,7 @@ conditions, and TDD with xUnit and Moq.
 <!--START_SECTION:repos-->
 | Repository | What it is | Stack |
 |---|---|---|
-| [aws-platform-terraform](https://github.com/BenitesG/aws-platform-terraform) | Production AWS infrastructure as code: an EC2 Image Builder golden image factory with four stacked lineages... | aws, checkov, ci-cd, cloud-security |
+| [aws-platform-terraform](https://github.com/BenitesG/aws-platform-terraform) | Production AWS platform as code: an EC2 Image Builder golden image factory (x86 + Graviton), EC2 instances... | aws, checkov, ci-cd, cloud-security |
 | [Fidelity_Test](https://github.com/BenitesG/Fidelity_Test) | Desafio técnico utilizando Django | Python |
 | [MultiAssetAnalyticsSystem](https://github.com/BenitesG/MultiAssetAnalyticsSystem) | A Polyglot microservices architecture using C# and Python | api, csharp, python |
 | [Agenda-JS](https://github.com/BenitesG/Agenda-JS) | — | JavaScript |
