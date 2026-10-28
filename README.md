@@ -3,7 +3,7 @@
   <img src="https://user-images.githubusercontent.com/39955420/147578264-bae0526c-028a-49d2-8af8-d08bb4edbd2a.gif" height="30" width="30">
 </h1>
 
-<h3 align="left">DevOps Engineer · AWS · Terraform · Docker · CI/CD · Python</h3>
+<h3 align="left">DevOps / SRE Engineer · AWS · Terraform · Docker · CI/CD · Python</h3>
 
 <p align="left">
 I automate operations: provisioning, delivery and environment standards as code, with a pipeline validating every change.<br>
